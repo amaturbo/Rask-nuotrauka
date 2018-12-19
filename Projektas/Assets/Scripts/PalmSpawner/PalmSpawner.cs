@@ -16,18 +16,43 @@ public class PalmSpawner : MonoBehaviour {
 
     GameObject parent;
     Transform spawn;
+XDSfasf
+dsgjnsdlkfsdlkslkdgnsdlkgsd
+sdlgkndlklsdkgsldkgnsld
+sdjgskdjgb
+        er;
 
-    CoconutSpawnPosition[] spawns = new CoconutSpawnPosition[Max_Items];
+    public float destroyDelay = 120.0f;
 
+    const int Max_Items = 4;
 
-    // Use this for initialization
-    void Start () {
-        timer = spawnTimer + Random.Range(0, maxSpawnDelay);
-        parent = this.gameObject;
-        spawn = getChildGameObject(gameObject, "Bone.002_end").transform;     
-        SetSpawnPositions();
-    }
-        
+    public GameObject whatToSpawn;
+
+    GameObject parent;
+    Transform spawn;
+XDSfasf
+er;
+
+    public float destroyDelay = 120.0f;
+
+    const int Max_Items = 4;
+
+    public GameObject whatToSpawn;
+
+    GameObject parent;
+    Transform spawn;
+XDSfasf
+er;
+
+    public float destroyDelay = 120.0f;
+
+    const int Max_Items = 4;
+
+    public GameObject whatToSpawn;
+
+    GameObject parent;
+    Transform spawn;
+XDSfasf
     // Update is called once per frame
     void Update () {
         timer -= Time.deltaTime;
