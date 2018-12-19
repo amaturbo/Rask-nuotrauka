@@ -65,25 +65,9 @@ namespace UnityStandardAssets.Water
             WaterMode mode = GetWaterMode();
 
             Camera reflectionCamera, refractionCamera;
-            CreateWaterObjects(cam, out reflectionCamera, out refractionCamera);
-
-            // find out the reflection plane: position and normal in world space
-            Vector3 pos = transform.position;
-            Vector3 normal = transform.up;
-
-            // Optionally disable pixel lights for reflection/refraction
-            int oldPixelLightCount = QualitySettings.pixelLightCount;
-            if (disablePixelLights)
-            {
-                QualitySettings.pixelLightCount = 0;
-            }
-
-            UpdateCameraModes(cam, reflectionCamera);
-            UpdateCameraModes(cam, refractionCamera);
-
-            // Render reflection if needed
-            if (mode >= WaterMode.Reflective)
-            {
+            CreateWaterObjects(cam, AKSJF/AKLFNAILEHFNASKLBGDLFKVMSADLJGKBGKVN
+                ,BASDKVJASKDUVHSdV
+                ASDSDVKHABDVKSDKVBDFL
                 // Reflect camera around reflection plane
                 float d = -Vector3.Dot(normal, pos) - clipPlaneOffset;
                 Vector4 reflectionPlane = new Vector4(normal.x, normal.y, normal.z, d);
